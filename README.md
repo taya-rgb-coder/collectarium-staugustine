@@ -1,32 +1,39 @@
-# Project Title
+# Collectarium (15th century)
 
-Brief description of the project: what manuscripts, collection, time period, or repository they come from.
+## About
 
-## Contents
+This repository contains a diplomatic transcription and TEI P5 encoding of folio 153r from a fifteenth-century Collectarium preserved in the Proctor Library, Flagler College.
 
-- `tei/` — TEI XML transcriptions and markup
-- `transcriptions/` — plain text transcriptions
-- `images/` — facsimiles and manuscript scans
-- `docs/` — documentation, methodology notes, encoding guidelines
+The project was prepared independently as part of a Digital Humanities portfolio.
+
+---
+
+## Repository structure
+
+tei/
+└── transcriptions/
+    └── collectarium_st_augustine_153r.xml
+
+---
 
 ## Encoding
 
-Transcriptions follow the [TEI P5 Guidelines](https://tei-c.org/guidelines/p5/).  
-*(Add details about your schema, tagset, or ODD file here if applicable.)*
+- TEI P5
+- diplomatic transcription
+- manuscript description
+- abbreviation expansion
+- decorated initials
+- rubrics
+- editorial policy
 
-## Sources
+---
 
-*(Describe the source manuscripts: library, shelfmark, date, language, etc.)*
+## Validation
 
-## How to Cite
+Validated against the official TEI P5 Relax NG schema (tei_all.rng).
 
-*(Add citation information here once the project is published.)*
+---
 
-## License
+## Author
 
-Text and markup: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-Images: *(specify license or note if images are not included)*
-
-## Contact
-
-*(Your name, affiliation, email or link to your profile.)*
+Taisiya Kabanchikova
